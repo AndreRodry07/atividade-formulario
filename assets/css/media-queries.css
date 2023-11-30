@@ -1,0 +1,159 @@
+@media (max-width: 1600px) {
+    .styled-label {
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+
+    form {
+        height: 60vh;
+    }
+
+    .container {
+        height: 700px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .container {
+        height: 700px;
+    }
+    form {
+        height: 600px;
+    }
+
+    .styled-label {
+        font-size: 1.5em;
+        margin-top: 12px;
+    }
+
+    label[for="comida1"] {
+        font-size: 1.2em;
+    }
+
+    label[for="comida2"] {
+        font-size: 1.2em;
+    }
+
+    label[for="comida3"] {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 947px) {
+    h1 {
+        font-size: 2.4em;
+    }
+    form {
+        width: 700px;
+        height: 500px;
+    }
+
+    .container {
+        height: 900px;
+    }
+
+    .styled-label {
+        font-size: 1.7em;
+
+        margin-top: 12px;
+    }
+
+    label[for="comida1"] {
+        font-size: 1.5em;
+    }
+
+    label[for="comida2"] {
+        font-size: 1.5em;
+    }
+
+    label[for="comida3"] {
+        font-size: 1.5em;
+    }
+
+    input[type="submit"] {
+        width: 230px;
+        font-size: 17px;
+        padding: 13px 23px;
+    }
+
+    #resposta-form {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 690px) {
+    h1 {
+        font-size: 1.7em;
+    }
+
+    #resposta-form {
+        font-size: 1em;
+    }
+
+    .container {
+        padding: 0 30px;
+        height: 670px;
+    }
+
+    form {
+        width: 90vw;
+        height: 60vh;
+    }
+
+    .styled-label {
+        font-size: 1.3em;
+    }
+
+    label[for="comida1"] {
+        font-size: 1em;
+    }
+
+    label[for="comida2"] {
+        font-size: 1em;
+    }
+
+    label[for="comida3"] {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 390px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #resposta-form {
+        font-size: 0.9em;
+    }
+
+    .container {
+        padding: 0 30px;
+        height: 650px;
+    }
+
+    form {
+        width: 90vw;
+        height: 60vh;
+    }
+
+    .styled-label {
+        font-size: 1.1em;
+    }
+
+    label[for="comida1"] {
+        font-size: 1em;
+    }
+
+    label[for="comida2"] {
+        font-size: 1em;
+    }
+
+    label[for="comida3"] {
+        font-size: 1em;
+    }
+
+    input[type="submit"] {
+        width: 210px;
+        padding: 12px 23px;
+    }
+}

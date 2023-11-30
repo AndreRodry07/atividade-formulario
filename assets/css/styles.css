@@ -1,0 +1,108 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 80vh;
+  width: 1300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url(../img/image.JPG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.dados-pessoais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comida-preferida {
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.3em;
+  font-weight: 600;
+}
+
+form {
+  height: 40vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.styled-label {
+  font-weight: bolder;
+  display: block;
+  margin: 0 0 12px 0;
+  color: #fff;
+}
+input[type="text"],
+input[type="number"] {
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 5px;
+  outline-color: #abeb34;
+  min-width: 300px;
+}
+
+input[type="submit"] {
+  background: #343499;
+  color: #fff;
+  width: 200px;
+  font-size: 17px;
+  margin: 0 auto;
+  font-weight: 600;
+  border-radius: 20px;
+  box-shadow: 1px 3px 6px 0 rgba(255, 255, 255, 0.8);
+  padding: 10px 15px;
+  border: none;
+}
+
+#resposta-form {
+  display: none;
+  border-bottom: 1px solid #fff;
+  padding: 20px 0;
+  color: #fff;
+}
+
+#resposta-form.show {
+  display: block;
+}
+
+#resposta-form .alert {
+  border: 1px solid #81d899;
+  background: #037a21;
+  padding: 20px;
+  margin: 0 0 15px 0;
+}
+
+label[for="comida1"] {
+  color: #fff;
+  font-weight: 700;
+}
+
+label[for="comida2"] {
+  color: #fff;
+  font-weight: 700;
+}
+
+label[for="comida3"] {
+  color: #fff;
+  font-weight: 700;
+}
